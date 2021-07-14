@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import View
-#Para AES-ECB y AES-CBC
+#Para AES-ECB y AES-CBCls -l
 from Cryptodome.Cipher import AES
 
 class AES_EBC(View):
